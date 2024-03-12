@@ -57,12 +57,16 @@ nav a {
 nav a:hover {
     background-color: #0631d4;
     color: #fff;
+    
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+    background-color: #f5f5f5;
+    
+    
 }
 .image-container {
     background-color: #f5f5f5;
@@ -100,9 +104,54 @@ nav a:hover {
 }
 .image-link:hover {
     background-color: #ffb636;
+    color: white;
 }
 section {
     margin-bottom: 30px;
+}
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #0631d4;
+    color: white;
+}
+.section-2-h1 {
+   text-align: center;
+   margin: 40px 0 5px 0;
+   font-weight: 700;
+   line-height: 2;
+   font-size: 50px;
+
+}
+.section-2-p {
+    margin-top: 10px;
+    font-size: 30px;
+}
+.section-2-companies {
+display: flex;
+
+}
+.google {
+  font-size: 50px;
+  margin-right: 50px;
+}
+.meta {
+    font-size: 50px;
+    margin-right: 50px;
+}
+.microsoft {
+    font-size: 50px;
+    margin-right: 50px;
+}
+.aws {
+    font-size: 50px;
+    margin-right: 50px;
+}
+.airbnb {
+    font-size: 50px;
+    margin-right: 50px;
 }
 
 h2 {
