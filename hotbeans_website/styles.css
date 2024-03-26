@@ -255,6 +255,8 @@ footer p {
     margin: 0;
 }
 .section-3 {
+   
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -263,4 +265,16 @@ footer p {
     font-size: 40px;
     text-align: center;
     font-weight: 700;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  color: blue !important;
+  
+  border: none !important; /* Remove the button border */
+  opacity: 1 !important; /* Ensure the buttons are fully visible */
+}
+
+.section-3 .carousel {
+   
+  
 }
