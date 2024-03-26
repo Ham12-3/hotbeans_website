@@ -8,7 +8,7 @@ body {
     font-family: 'Calibri', sans-serif;
     margin: 0;
 
-    background-color: #f4f4f4;
+    
     color: #333;
 }
 
@@ -24,21 +24,22 @@ header .logo {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 
 }
 
 header h1 {
     font-family: sans-serif;
     color: #0631d4;
-
+font-weight: 700;
     padding: 0;
 }
 
 header .logo-image {
-    margin: 0;
+   margin-bottom: 10px;
 
-    width: 35px;
-    height: 35px;
+    width: 50px;
+    height: 50px;
 }
 
 .home-image {
@@ -60,6 +61,7 @@ nav a {
     padding: 10px 20px;
     border-radius: 5px;
     transition: background-color 0.3s ease;
+    font-weight: 700;
 }
 
 .apply-here {
@@ -85,13 +87,13 @@ section {
     max-width: 1200px;
  
     padding: 20px;
-    background-color: #f5f5f5;
+    
 
 
 }
 
 .image-container {
-    background-color: #f5f5f5;
+
     display: flex;
 
     justify-content: space-around;
@@ -251,4 +253,14 @@ footer {
 
 footer p {
     margin: 0;
+}
+.section-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-3-h1 {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
 }
