@@ -66,6 +66,11 @@ nav a {
     background-color: #0631d4;
     color: #fff;
 }
+.apply-here:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
 
 nav a:hover {
     background-color: #0631d4;
@@ -116,6 +121,7 @@ section {
 
 .image-notes {
     margin-top: 18px;
+    font-weight: 700;
     margin-bottom: 40px;
     color: #0631d4;
 }
@@ -133,8 +139,9 @@ section {
 }
 
 .image-link:hover {
-    background-color: #ffb636;
-    color: white;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
 }
 
 .image-homepage {
