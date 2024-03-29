@@ -271,6 +271,12 @@ footer p {
     font-weight: 700;
 }
 
+.slide-container {
+    max-width: 1120px;
+    width: 100%;
+    background-color: #fff;
+}
+
 .slide-content {
     margin: 0 40px;
 }
