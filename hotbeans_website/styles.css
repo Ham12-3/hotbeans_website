@@ -401,7 +401,8 @@ footer p {
 }
 
 .jobs-sections .card,
-.courses-sections .card {
+.courses-sections .card,
+.staff-sections .card {
     margin-bottom: 20px;
     margin-top: 20px;
 }
