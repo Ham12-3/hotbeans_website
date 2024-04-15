@@ -399,3 +399,8 @@ footer p {
     color: black;
 
 }
+
+.jobs-sections .card {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
