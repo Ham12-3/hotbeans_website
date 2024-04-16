@@ -406,3 +406,16 @@ footer p {
     margin-bottom: 20px;
     margin-top: 20px;
 }
+
+
+
+/* Contact us here  */
+.contact-us-here {
+    background-color: #0631d4;
+    color: #fff;
+}
+.contact-h1 {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+}
