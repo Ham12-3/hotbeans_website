@@ -419,3 +419,6 @@ footer p {
     text-align: center;
     font-weight: 700;
 }
+.btn-primary {
+    background-color: #0631d4 !important;
+}
