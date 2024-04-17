@@ -422,3 +422,7 @@ footer p {
 .btn-primary {
     background-color: #0631d4 !important;
 }
+
+.form-section {
+    margin: 0 200px 0 200px;
+}
