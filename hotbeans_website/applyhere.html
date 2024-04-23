@@ -59,7 +59,7 @@
                 <label for="validationServerUsername" class="form-label">Username</label>
                 <div class="input-group has-validation">
                   <span class="input-group-text" id="inputGroupPrepend3">@</span>
-                  <input type="text" class="form-control is-invalid" id="validationServerUsername" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+                  <input type="text" class="form-control is-valid" id="validationServerUsername" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
                   <div id="validationServerUsernameFeedback" class="invalid-feedback">
                     Please choose a username.
                   </div>
@@ -67,14 +67,14 @@
               </div>
               <div class="col-md-6">
                 <label for="validationServer03" class="form-label">City</label>
-                <input type="text" class="form-control is-invalid" id="validationServer03" aria-describedby="validationServer03Feedback" required>
+                <input type="text" class="form-control is-valid" id="validationServer03" aria-describedby="validationServer03Feedback" required>
                 <div id="validationServer03Feedback" class="invalid-feedback">
                   Please provide a valid city.
                 </div>
               </div>
               <div class="col-md-3">
                 <label for="validationServer04" class="form-label">State</label>
-                <select class="form-select is-invalid" id="validationServer04" aria-describedby="validationServer04Feedback" required>
+                <select class="form-select is-valid" id="validationServer04" aria-describedby="validationServer04Feedback" required>
                   <option selected disabled value="">Choose...</option>
                   <option>...</option>
                 </select>
@@ -84,14 +84,14 @@
               </div>
               <div class="col-md-3">
                 <label for="validationServer05" class="form-label">Zip</label>
-                <input type="text" class="form-control is-invalid" id="validationServer05" aria-describedby="validationServer05Feedback" required>
+                <input type="text" class="form-control is-valid" id="validationServer05" aria-describedby="validationServer05Feedback" required>
                 <div id="validationServer05Feedback" class="invalid-feedback">
                   Please provide a valid zip.
                 </div>
               </div>
               <div class="col-12">
                 <div class="form-check">
-                  <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" aria-describedby="invalidCheck3Feedback" required>
+                  <input class="form-check-input is-valid" type="checkbox" value="" id="invalidCheck3" aria-describedby="invalidCheck3Feedback" required>
                   <label class="form-check-label" for="invalidCheck3">
                     Agree to terms and conditions
                   </label>
@@ -138,9 +138,16 @@
             </div>
           
             <div class="mb-3">
-              <input type="file" class="form-control" aria-label="file example" required>
+              <label for="resume" class="form-label">Resume</label>
+              <input type="file" id="resume" class="form-control" aria-label="file example" required>
               <div class="invalid-feedback">Example invalid form file feedback</div>
             </div>
+            <div class="mb-3">
+              <label for="cover-letter" class="form-label">Cover Letter</label>
+              <input type="file" id="resume" class="form-control" aria-label="file example" required>
+              <div class="invalid-feedback">Example invalid form file feedback</div>
+            </div>
+          
           
             <div class="mb-3">
               <button class="w-100 btn btn-primary btn-lg" type="submit">Submit your application now</button>
