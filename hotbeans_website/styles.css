@@ -434,3 +434,7 @@ footer p {
     text-align: center;
     font-weight: 700;
 }
+.card-img-top {
+    width: 286px;
+    height: 286px;
+}
